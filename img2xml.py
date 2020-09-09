@@ -58,7 +58,7 @@ def createFileList(myDir, format='.png'):
                 fileList.append(fullName)
     return fileList
 
-# load the original image
+# load the original image ### Change this path, or not. I'm not your dad
 myFileList = createFileList('C:/Users/wayde/Desktop/pythonshit')
 
 for file in myFileList:
